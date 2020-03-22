@@ -1,0 +1,28 @@
+{
+  "name": "100-html-navigationmenus",
+  "version": "1.0.0",
+  "description": "Using online tutorials to build navigation menus using HTML, CSS and Javascript...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode developer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssouaAlbert/100-HTML-NavigationMenus.git"
+  },
+  "keywords": [
+    "navigation",
+    "menu",
+    "html",
+    "css",
+    "javscript",
+    "100"
+  ],
+  "author": "Albert Eloumbat Assoua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssouaAlbert/100-HTML-NavigationMenus/issues"
+  },
+  "homepage": "https://github.com/AssouaAlbert/100-HTML-NavigationMenus#readme",
+  "depende
