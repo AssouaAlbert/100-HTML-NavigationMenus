@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap")
+
+nav {
+  align-content: center;
+}
+ul {
+  list-style-type: none;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-content: center;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li {
+  float: left;
+}
+li a:hover {
+  color: white;
+  background-color: black;
+}
+li a:not(.active):hover {
+  background-color: #8b0000;
+}
+.active:hover {
+  background-color: #add8e6;
+  color: black;
+}
+.active {
+  background-color: #add8e6;
+}
