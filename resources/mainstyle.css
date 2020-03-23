@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
-
+body {
+  font-family: 'PT Sans', sans-serif;;
+}
 nav {
   align-content: center;
 }
@@ -34,4 +36,11 @@ li a:not(.active):hover {
 }
 .active {
   background-color: #add8e6;
+}
+.menu-iframe {
+  text-align: relative;
+}
+h1 {
+  display: flex;
+  justify-content: center;
 }
