@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Gotu&display=swap");
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    font-family:"Gotu", sans-serif ;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.header {
+    overflow: hidden;
+}
+#logoipsum {
+ float: left;
+ width: 20%;
+ margin: 20px;
+}
+nav.main-nav {
+    float: right;
+    width: 75%;
+    overflow: hidden;
+}
+.menu-list{
+    width: 100%;
+    overflow: hidden;
+}
+nav>ul>li {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    float: left;
+    color: white;
+    width: 15%;
+    overflow: hidden;
+}
+.dropmenu>ul{
+    display: none;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    background-color: #fe346e;
+    border-radius: 10px;
+    color: black;
+    z-index: 1;
+}
+.dropmenu>ul>li{
+    padding-top: 4px;
+    border-bottom:1px solid black;
+}
+.dropmenu:hover ul {
+    display: block;
+}
+@media screen and (max-width: 800px) {
+    #logoipsum{
+    height: 150px;
+    width: 100%;
+    }
+    nav.main-nav{
+        width: 100%;
+    }
+    nav.main-nav>ul{
+        width: 100%;
+        float: none;
+    }
+    nav.main-nav>ul>li{
+      text-align: center;
+      margin: 4px;
+    }
+  }
+@media screen and (max-width: 400px) {
+nav.main-nav>ul>li{
+float: left;
+}
+}
+.col-75{
+    float: left;
+    width: 75%;
+}
+.card{
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 8px 16px 4px rgba(155, 146, 146, 0.637);
+}
+.card:hover{
+    box-shadow: 4px 8px 16px 4px #f1e7b6;
+}
+.fakeimg {
+    background-color:#400082 ;
+    width: 60%;
+    padding: 20px;
+}
+.fake-photo{
+    padding: 10px;
+    background: #00bdaa url("../resources/images/icons8-person-80.png") no-repeat center;
+    background-size: 200px 200px ;
+    height: 200px;
+}
+.col-25{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.popular-post{
+    height: 100px;
+    width: 100%;
+    background-color: #fe346e;
+    margin: 10px 0;
+}
+.follow-me {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
